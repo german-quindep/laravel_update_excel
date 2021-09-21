@@ -1,6 +1,6 @@
 $(document).on("change", 'input[type="file"]', function () {
   // this.files[0].size recupera el tamaño del archivo
-  // alert(this.files[0].size);
+  
 
   var fileName = this.files[0].name;
   var fileSize = this.files[0].size;
