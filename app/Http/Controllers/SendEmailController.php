@@ -9,6 +9,7 @@ class SendEmailController extends Controller
 {
     public function sendEmailUser()
     {
+        //SEND EMAIL
         $ldate = date('Y-m-d'); //OBTENGO LA FECHA DE HOY
         $productLog = DB::select("SELECT * FROM product_new_logs WHERE created_at between '" . $ldate . "' and '" . $ldate . " 23:59:59'"); //SEEDER: ACTUALIZO LOS DATOS
         if (empty($productLog)) {
