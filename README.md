@@ -17,3 +17,12 @@
   en la bd de la tabla log Products.</p>
 
 
+<h3>Indicaciones previas para el buen funcionamiento del proyecto</h3>
+ <p>Lo primero que se debe hacer es ejecutar las migraciones de laravel para que se suban las tablas, luego
+ de ello ir a la base de datos y buscar la tabla products y ejecutar la siguiente sentencia</p>
+ <br>
+ INSERT INTO `products` (`id`, `secuencial`, `codigo`, `bodega`, `cantidad`, `created_at`, `updated_at`) VALUES (NULL, 'Samsung Galaxy Pro Max', '788921', '255', '23', NULL, NULL), (NULL, 'Samsung Galaxy Pro S9', '788922', '256', '11', NULL, NULL), (NULL, 'Samsung Galaxy S20', '788923', '255', '8', NULL, NULL), (NULL, 'Samsung Galaxy P30', '788924', '256', '7', NULL, NULL), (NULL, 'Huawewi P30 Lite', '788925', '255', '6', NULL, NULL), (NULL, 'Huawewi Smarth P40', '788926', '256', '5', NULL, NULL), (NULL, 'Iphone Touch Pro Max 20', '788927', '255', '10', NULL, NULL), (NULL, 'Pro Lite Huawei', '788821', '255', '23', NULL, NULL);
+  <br>
+  <p>Una vez insertados los productos ahora si a correr la aplicacion y probarla</p>
+  
+ 
