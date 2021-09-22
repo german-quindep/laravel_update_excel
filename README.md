@@ -26,10 +26,11 @@
   <p>Par el envio de correo se debe configurar el archivo env y busar el apartado que diga mail_drive, mail_host 
   e ir configurando segun el correo que se vaya a utilizar. Una vez configurado esa parte revisar el archivo 
   SendEmailController para configurar el envio de correo se adjunta las lineas a modificar</p>
-  <br>
+  <br><br>
+  <p>Solo se modifica el apartado que tiene este emojis  ➔ una vez modificado borrar el emojis</p>
   <p>Mail::send('emails.welcome', compact("productLog"), function ($message) { <br>
-                $message->from('tuemail', 'Email de Prueba');<br>
-                $message->to('tuemail')->subject('Reporte del día');<br>
+                $message->from('➔tuemail', 'Email de Prueba');<br>
+                $message->to('➔tuemail')->subject('Reporte del día');<br>
             });</p>
             <br><br>
             <p><b>Nota: </b> Para este caso se enviara un correo a nosotros mismo</p>
